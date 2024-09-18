@@ -1,13 +1,10 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <math.h>
 int main(){
-	double r= 5;
-	double pi= 3.1416;
-	double area = pi*r*r;
-	
-	printf("Area = %f", area);
-	
-	printf("\n");
-	system("Pause");
-	return 0;
+    double pi = 3.1416;
+    double d=10;
+    puts("Area de un circulo");   
+    printf("AREA = %f\n", pi*(d/2*d/2));
+    return 0;
 }
